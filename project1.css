@@ -1,0 +1,66 @@
+*{
+    margin:0;    
+    padding: 0;
+}
+body{
+    background-color:white;
+}
+form{
+    background-color: white;
+    width: 25%;
+    margin: 10% auto;
+    padding: 10px;
+    padding-top: 5px ;
+    padding-bottom: 60px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 50px rgb(192, 189, 189);   
+}
+form > h1,h3{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+label,input,button,a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+form  > input{
+    margin-left: 60px;
+    height: 30px;
+    width: 220px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    background-color: rgb(242, 245, 247);
+}
+form > button{
+    margin-left: 35px;
+    padding: 5px;
+    width: 80%;
+    background-color: #377DFF;
+    border-color: white ;
+    border-radius: 5px;
+}
+form > button:hover{
+    background-color: #1e54b8;
+}
+button > p{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    padding: 0%;
+    margin: 0%;
+}
+#signup{
+    display: inline;
+    color: #377DFF;
+}
+#signupq{
+    display: inline;
+    margin-left: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
